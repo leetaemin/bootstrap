@@ -1,0 +1,55 @@
+
+
+#adults{
+	background-image: url('../img/adultos.jpg');
+	
+font-family: 'oswald';
+	src: url(fonts/oswald-bold.ttf);
+	margin: 0;
+	padding:0;
+	width: 1200px;
+	height: 800px;
+}
+
+#adults h4{
+	font-family: 'oswald';
+	src:url('fonts/oswald-SemiBold.ttf');
+	
+}
+
+#adults h4 h2{
+	display: flex;
+	flex-direction: column;
+	
+	align-items: flex-end;
+}
+
+.contenido h2{
+	font-family: 'oswald';
+	src:url('fonts/oswald-SemiBold.ttf');
+	font-size: 80px;
+
+}
+.contenido p{
+	font-size: 8pt;
+	font-family: 'oswald';
+	src:url('fonts/oswald-ExtraLight.ttf');
+}
+
+.dancing{
+	display: flex;
+	align-items: center;
+
+}
+
+.dancing img{
+	width: 500px;
+}
+
+#ballet{
+	flex-direction: row-reverse;
+}
+
+#belly{
+	flex-direction: row-reverse;
+}

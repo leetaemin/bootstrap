@@ -1,0 +1,33 @@
+main h1{
+
+	font-size: 70pt;
+	font-family: 'oswald';
+	src:url('fonts/oswald-extrabold.ttf');
+}
+
+main label{
+	font-size: 15pt;
+	font-family: 'oswald';
+	src:url('fonts/oswald-extralight.ttf');
+}
+form{
+	display: flex;
+	flex-direction: column;
+}
+
+input{
+	width: 500px;
+	margin-bottom: 20px;
+}
+
+select{
+	width: 500px;
+	margin-bottom: 20px;
+}
+#consulta{
+	height: 300px;
+}
+
+button{
+	margin-top: 10px;
+}

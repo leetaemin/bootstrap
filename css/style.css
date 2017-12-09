@@ -1,0 +1,160 @@
+*{
+	margin:0px;
+}
+.navegador img{
+	width: 50px;
+	display: flex;
+	align-items: center
+	margin-top:5px;
+}
+header .active a {
+    color: #D0D0D0 !important;
+}
+
+header .nav>li>a:hover {
+
+    /*background-color: #D0E5C6;*/
+    color: #000;
+}
+
+
+
+header #ulXs li {
+    border-bottom: 0.1em solid #D0E5C6;
+}
+
+header {
+    font-family: 'oswald';
+    src: url(fonts/oswald-medium.ttf);
+    font-style: none;
+    color: black;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#inicio {
+    font-family: 'oswald';
+    src: url(fonts/oswald-bold.ttf);
+    background-image: url("../img/primera.jpg");
+
+    margin: 0;
+    padding: 0;
+    width: 1200px;
+    height: 800px;
+}
+
+
+#inicio h4 {
+    font-family: 'oswald';
+    src: url('fonts/oswald-SemiBold.ttf');
+}
+
+#inicio h4 h2 {
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-end;
+}
+
+#adultos img {
+    width: 400px;
+}
+
+#adultos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 70px;
+    font-family: 'oswald';
+    src: url('fonts/oswald-extralight.ttf');
+}
+
+#adultos h2 {
+    font-size: 80px;
+}
+
+#niños h2 {
+    font-size: 50px;
+}
+
+.contenido {
+    margin: 15%
+}
+
+#niños {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    flex-direction: row-reverse;
+    font-family: 'oswald';
+    src: url('fonts/oswald-extralight.ttf');
+}
+
+#niños img {
+    width: 500px;
+}
+
+.contenido a {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.maestros figure img {
+    width: 200px;
+    border-radius: 100%;
+    margin: 15px;
+    margin-top: 15px;
+}
+
+.maestros {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin-top: 0;
+}
+
+.maestros figcaption {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'oswald';
+    src: url('fonts/oswald-medium.ttf');
+}
+
+
+span {
+    font-size: 18px;
+    font-family: 'oswald';
+    src: url('fonts/oswald-extralight.ttf');
+}
+
+#title h2 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'oswald';
+    src: url('fonts/oswald-extrabold.ttf');
+    background-color: black;
+    color: white;
+    margin-bottom: 0px;
+}
+
+#mapa h2 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'oswald';
+    src: url('fonts/oswald-extrabold.ttf');
+    margin-bottom: 25px;
+    margin-top: 50px;
+}
+
+#footer {
+    background-color: #000;
+    text-decoration: none;
+}
