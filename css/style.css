@@ -1,12 +1,13 @@
-*{
-	margin:0px;
+* {
+    margin: 0px;
 }
-.navegador img{
-	width: 50px;
-	display: flex;
-	align-items: center
-	margin-top:5px;
+
+.navegador img {
+    width: 50px;
+    display: flex;
+    align-items: center margin-top:5px;
 }
+
 header .active a {
     color: #D0D0D0 !important;
 }
@@ -41,22 +42,33 @@ a {
     src: url(fonts/oswald-bold.ttf);
     background-image: url("../img/primera.jpg");
 
-    margin: 0;
+    margin-top: 50px;
     padding: 0;
     width: 1200px;
     height: 800px;
 }
 
+#titulo {
+    margin-left: 200px;
+    margin-top: 150px;
+}
 
 #inicio h4 {
     font-family: 'oswald';
     src: url('fonts/oswald-SemiBold.ttf');
+    font-size: 30px;
+    margin-left: 0%;
+    letter-spacing: 60px;
+}
+
+#inicio h2 {
+    font-size: 50px;
 }
 
 #inicio h4 h2 {
     display: flex;
     flex-direction: column;
-
+    line-height: 50px;
     align-items: flex-end;
 }
 
@@ -118,7 +130,10 @@ a {
     background-color: black;
     color: white;
     width: 100%;
-    margin-top: 0;
+}
+
+#master{
+    margin-top: 20px;
 }
 
 .maestros figcaption {
@@ -154,7 +169,23 @@ span {
     margin-top: 50px;
 }
 
-#footer {
+footer {
     background-color: #000;
     text-decoration: none;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    align-items: flex-end;
+    list-style: none;
+    text-decoration: none;
+}
+
+footer img {
+    width: 20px;
+}
+
+footer p {
+    text-align: left;
 }

@@ -1,70 +1,37 @@
-/*$(document).ready(function(){
-var nombre= $('#nombre').val();
-	var edad=$('#edad').val();
-	var mail= $('#mail').val();
-	var apellido= $('#apellido').val();
-	var motivo= $('#mov').val();
-	var tel=$('#telefono').val();
-	var ul = $('#error');
-	var text=$('#consulta');
-
-$('#submit').on('click',function(event){
-	event.preventDefault();
-	if(validar(nombre,mail) == true){
-			var jdatosSON = {"nombre":nombre,"mail":mail,"apellido":apellido,"edad":edad, "motivo":motivo, "consulta":text}
-			var J= JSON.stringify(jdatosSON)
-			var a='<a href=index.html?datos='+J+'>link</a>'
-		};*/
 
 $(document).ready(function(){
 	var nombre=$('#nombre').val();
 	var mail=$('#mail').val();
 	var apellido=$('#apellido').val();
 	var motivo=$('#mov').val();
-	var tel=('#telefono').val();
+	var tel=$('#tel').val();
 
 $('#submit').on('click', function(event){
 	event.preventDefault();
-	if(validar(nombre,mail) == true){
+	if(validarRequeridos(nombre,apellido) == true && ValidarScroll(motivo) ==true && validarMail(mail)==true){
 			var jdatosSON = {"nombre":nombre,"mail":mail,"apellido":apellido,"edad":edad, "motivo":motivo, "consulta":text}
 			var J= JSON.stringify(jdatosSON)
 			var a='<a href=index.html?datos='+J+'>link</a>'};
 
+			console.log(a)
+
 
 })
+})
 
+function validarRequeridos(campo){
 
-function validarRequeridos(nombre){
+    campo.trim();
 
-	nombre.trim();
-
-	if(nombre.length == 0){
-
-		return false;
-	}
-	
-	return true;
-}
-function validarRequeridos(apellido){
-
-	apellido.trim();
-
-	if(apellido.length == 0){
+	if(campo.length == 0){
 
 		return false;
 	}
 	
 	return true;
 }
-function validarEdad(Edad){
-	edad.trim();
-	if(edad.length== 0 || isNaN(edad)){
-		return false;
-	}
-	return true;
-};
-
-function ValidarScroll(interes){
+ 
+function ValidarScroll(motivo){
 	if(i<0){
 		return false;
 	}
@@ -92,7 +59,7 @@ function validarMail(mail){
 
 
 
-function validar(nombre, mail){
+/*function validar(nombre, mail){
 
 
 	valido = true; 
@@ -125,5 +92,5 @@ function validar(nombre, mail){
 		};
 		
 };
-})
 
+*/

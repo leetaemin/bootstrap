@@ -10,9 +10,19 @@
     color: white;
 }
 
+#adults h2{
+    font-size: 80px;
+}
 #adults h4 {
     font-family: 'oswald';
     src: url('fonts/oswald-SemiBold.ttf');
+font-size: 40px;
+margin-left: 5%
+}
+
+#crecer{
+    margin-left: 28%;
+    margin-top: 320px;
 }
 
 #adults h4 h2 {
