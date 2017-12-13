@@ -2,20 +2,35 @@
 
 #adults{
 	background-image: url('../img/adultos.jpg');
-	
-font-family: 'oswald';
+	background-size: cover;
+	font-family: 'oswald';
 	src: url(fonts/oswald-bold.ttf);
-	margin: 0;
+	margin-top: 50px;
 	padding:0;
-	width: 1200px;
+	/*width: 1200px;*/
 	height: 800px;
 }
+
+.mainMargenes{
+    margin-right: -30px;
+    margin-left: -30px;
+}
+
 
 #adults h4{
 	font-family: 'oswald';
 	src:url('fonts/oswald-SemiBold.ttf');
-	
+font-size: 25px;	
+letter-spacing: 20px;
+margin-left: 10px;
 }
+
+#adults h2{
+	font-size: 80px;
+
+}
+
+
 
 #adults h4 h2{
 	display: flex;
@@ -24,6 +39,10 @@ font-family: 'oswald';
 	align-items: flex-end;
 }
 
+#matter{
+	margin-left: 450px;
+	margin-top: 200px;
+}
 .contenido h2{
 	font-family: 'oswald';
 	src:url('fonts/oswald-SemiBold.ttf');
@@ -52,4 +71,39 @@ font-family: 'oswald';
 
 #belly{
 	flex-direction: row-reverse;
+}
+
+
+footer#footerMarg{
+    margin-top: -10px;
+}
+
+.footerMine {
+    background-color: #000;
+    text-decoration: none;
+    color: white;
+}
+/*
+.estilosfooter {
+    display: flex;
+    justify-content: flex-end;
+   align-items: flex-end;
+   
+}*/
+
+footer img {
+    width: 20px;
+}
+
+/*footer p {
+    text-align: left;
+}
+*/
+
+footer li{
+    list-style-type: none;
+}
+
+footer #redes{
+    padding-top: 8px;
 }

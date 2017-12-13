@@ -1,14 +1,30 @@
 #adults {
     background-image: url('../img/us.jpg');
-
+    background-size: cover;
     font-family: 'oswald';
     src: url(fonts/oswald-bold.ttf);
-    margin: 0;
+    margin-top:50px;
     padding: 0;
-    width: 1200px;
-    height: 620px;
+    /*width: 1200px;*/
+    height: 800px;
     color: white;
 }
+
+/*
+
+#inicio {
+    font-family: 'oswald';
+    src: url(fonts/oswald-bold.ttf);
+    background-image: url("../img/primera.jpg");
+    background-size: cover;
+    margin-top: 50px;
+    padding: 0;
+    /*width: 1200px;*/
+    height: 800px;
+}
+
+
+*/
 
 #adults h2{
     font-size: 80px;
@@ -93,4 +109,38 @@ figcaption{
 	margin-top: 50px;
 	margin-bottom: 50px;
 	padding: 80px;
+}
+
+footer#footerMarg{
+    margin-top: -10px;
+}
+
+.footerMine {
+    background-color: #000;
+    text-decoration: none;
+    color: white;
+}
+/*
+.estilosfooter {
+    display: flex;
+    justify-content: flex-end;
+   align-items: flex-end;
+   
+}*/
+
+footer img {
+    width: 20px;
+}
+
+/*footer p {
+    text-align: left;
+}
+*/
+
+footer li{
+    list-style-type: none;
+}
+
+footer #redes{
+    padding-top: 8px;
 }
